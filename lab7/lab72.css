@@ -1,0 +1,36 @@
+.bear{
+    width: 25%;
+    float: left;
+}
+.sanpham{
+    border-radius: 10px;
+    box-shadow: 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.sanpham > .name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.sanpham > .image{
+    max-width: 120px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.sanpham > .cost{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: orange;
+
+}
+.sanpham > .icon > img{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 25px;
+}
